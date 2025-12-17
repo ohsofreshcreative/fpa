@@ -98,11 +98,11 @@ body {
 	--p-300: #80C9F2;
 	--p-400: #55B6EE;
 	--p-500: #2AA4E9;
-	--p-600: #0092E5;
-	--p-700: #007ABF;
-	--p-800: #006199;
-	--p-900: #004973;
-	--p-dark: #00314C;
+	--p-600: #0066BF;
+	--p-700: #004799;
+	--p-800: #002E73;
+	--p-900: #001C4C;
+	--p-dark: #00122E;
 	--p-darker: #001D2E;
 	--p-brand: #0092E5;
 
@@ -129,6 +129,7 @@ body {
 	--gray: #63656a;
 	--bg: #000640;
 	--bg-dark: #00052d;
+	--bg-p-dark: var(--p-800);
 	--bg-p-light: var(--p-200);
 	--bg-p-lighter: var(--p-100);
 	--bg-s-light: var(--s-200);
@@ -263,7 +264,7 @@ body {
 		color: var(--body) !important;
 	}
 
-	.bg-secondary {
+	.bg-p-dark {
 		background-color: #fff !important;
 	}
 }
@@ -284,7 +285,7 @@ body {
 }
 
 .section-brand {
-	background: var(--p-brand);
+	background: var(--p-600);
 	padding: var(--smt) 0;
 
 	h1,
@@ -551,6 +552,10 @@ h6,
 
 .bg-brand {
 	background-color: var(--p-brand);
+}
+
+.bg-p-dark {
+	background-color: var(--bg-p-dark);
 }
 
 .bg-p-light {
