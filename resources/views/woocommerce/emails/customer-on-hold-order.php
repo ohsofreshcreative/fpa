@@ -26,7 +26,7 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 
 <p>Dzień dobry,</p>
 
-<p>bardzo dziękujemy za rejestrację na konferencję VI Forum Zakażeń, która odbędzie się w dniach 13-15 maja 2026 r. w Hotelu Windsor w Jachrance. <b>Twoje zgłoszenie zostało przyjęte.</b></p>
+<p>bardzo dziękujemy za rejestrację na konferencję V Forum Pielęgniarstwa Anestezjologicznego, która odbędzie się w dniach 10-12 czerwca 2026 r. w Hotelu Bachleda Kasprowy, Zakopane. <b>Twoje zgłoszenie zostało przyjęte.</b></p>
 
 <b>Dane do przelewu:</b>
 <p>Evereth Publishing Sp. z o.o.<br>
@@ -34,14 +34,14 @@ ul. Paprociowa 13<br>
 04-751 Warszawa<br><br>
 <b>nr konta:</b><br>
 63 1090 1753 0000 0001 4680 1378<br>
-<b>tytuł:</b><br> imię i nazwisko uczestnika – konferencja FZ2026.</p><br>
+<b>tytuł:</b><br> imię i nazwisko uczestnika – konferencja FPA2026.</p><br>
 
-<p>Wysokość opłat znajdziesz tutaj: <a href="https://forumzakazen.com/oplata-konferencyjna/">Opłata konferencyjna</a></p><br>
+<p>Wysokość opłat znajdziesz tutaj: <a href="https://fpa.edu.pl/oplata-konferencyjna/">Opłata konferencyjna</a></p><br>
 
 <p>Prosimy o sprawdzenie, czy dane zawarte w formularzu są poprawne.</p><br>
 <p>W przypadku zauważonych błędów prosimy o dokonanie ponownej rejestracji na konferencję.</p><br>
 
-<p>W przypadku nieuiszczenia przez uczestnika opłaty w ciągu 7 dni Organizator jest zmuszony skreślić go z listy. Jeśli pomimo to uczestnik wyraża chęć wzięcia udziału w konferencji, konieczna jest ponowna rejestracja i dokonanie wpłaty (według cennika i obowiązującego terminarza znajdującego się w zakładce <a href="https://forumzakazen.com/oplata-konferencyjna/">Opłata konferencyjna</a>).</p>
+<p>W przypadku nieuiszczenia przez uczestnika opłaty w ciągu 7 dni Organizator jest zmuszony skreślić go z listy. Jeśli pomimo to uczestnik wyraża chęć wzięcia udziału w konferencji, konieczna jest ponowna rejestracja i dokonanie wpłaty (według cennika i obowiązującego terminarza znajdującego się w zakładce <a href="https://fpa.edu.pl/oplata-konferencyjna/">Opłata konferencyjna</a>).</p>
 
 <?php
 
