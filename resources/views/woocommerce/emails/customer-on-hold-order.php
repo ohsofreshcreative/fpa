@@ -35,7 +35,7 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 ul. Paprociowa 13<br>
 04-751 Warszawa<br><br>
 <b>nr konta:</b><br>
-63 1090 1753 0000 0001 4680 1378<br>
+48 1090 1753 0000 0001 4680 1357 <br>
 <b>tytuł:</b><br> imię i nazwisko uczestnika – konferencja FPA2026.</p><br>
 
 <?php
