@@ -26,9 +26,11 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 
 <p>Dzień dobry,</p>
 
-<p>bardzo dziękujemy za rejestrację na konferencję V Forum Pielęgniarstwa Anestezjologicznego, która odbędzie się w dniach 10-12 czerwca 2026 r. w Hotelu Bachleda Kasprowy, Zakopane. <b>Twoje zgłoszenie zostało przyjęte.</b></p>
+<p>bardzo dziękujemy za rejestrację na konferencję V Forum Pielęgniarstwa Anestezjologicznego, która odbędzie się w dniach 10-12 czerwca 2026 r. w Hotelu Bachleda Kasprowy, Zakopane. </p>
 
-<b>Prosimy o wpłatę w ciągu 7 dni na nasze konto bankowe, po tym terminie rejestracja zostaje anulowana.</b>
+<b>Twoje zgłoszenie zostało przyjęte.</b>
+
+<b>Prosimy o wpłatę w ciągu 7 dni na nasze konto bankowe, po tym terminie rejestracja zostaje anulowana.</b><br><br>
 
 <b>Dane do przelewu:</b>
 <p>Evereth Publishing Sp. z o.o.<br>
