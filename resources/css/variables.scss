@@ -129,6 +129,7 @@ body {
 	--gray: #63656a;
 	--bg: #000640;
 	--bg-dark: #00052d;
+	--bg-p-brand: var(--p-brand);
 	--bg-p-dark: var(--p-800);
 	--bg-p-light: var(--p-200);
 	--bg-p-lighter: var(--p-100);
@@ -170,6 +171,7 @@ body {
 	--footer-py: 156px 0;
 
 	--gradient: linear-gradient(90deg, var(--primary) 0%, var(--p-500) 100%);
+	--gradient-dark: linear-gradient(90deg, var(--p-900) 0%, var(--p-700) 100%);
 }
 
 /*--- !CONTAINERS ---*/
@@ -596,6 +598,10 @@ h6,
 
 .bg-gradient {
 	background-image: var(--gradient) !important;
+}
+
+.bg-gradient-dark {
+	background-image: var(--gradient-dark) !important;
 }
 
 .bg-dark {
@@ -1807,6 +1813,10 @@ p {}
 
 /*--- !MOBILE ---*/
 
+.sub-items a {
+	font-size: 16px !important;
+}
+
 /*---- 2XL --*/
 @media only screen and (max-width: 1536px) {
 	:root {}
@@ -1831,6 +1841,10 @@ p {}
 			--img-xl: 100%;
 		}
 	}
+	
+	#main.main.-spt {
+		padding-top: 0 !important;
+	}
 
 	.order-flip {
 		.order1:nth-child(1) {
@@ -1854,7 +1868,6 @@ p {}
 	:root {
 		--img-xl: 424px;
 	}
-
 	.inline-buttons {
 		display: grid;
 		gap: 24px;
