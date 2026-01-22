@@ -13,7 +13,7 @@ $g_counter = get_field('g_counter');
 $block_title = get_field('block-title');
 @endphp
 
-<section id="{{ $section_id }}" class="counter relative -mt-20 z-10 {{ $nomt ? 'mt-0' : '' }} {{ $section_class }}">
+<section id="{{ $section_id }}" class="counter relative -mt-10 md:-mt-20 z-10 {{ $nomt ? 'mt-0' : '' }} {{ $section_class }}">
 	<div class="c-main">
 		 <div class="bg-gradient-dark p-6 md:px-20 md:py-10">
             @if ($g_counter && $g_counter['date'])
