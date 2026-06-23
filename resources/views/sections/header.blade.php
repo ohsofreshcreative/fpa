@@ -28,11 +28,11 @@ use App\Walkers\MobileDropdownWalker;
 		@endif
 
 
-			<div class="">
+			<!--- <div class="">
 				<a href="/zarejestruj-sie//" class="block w-full white-btn-s !px-4">
 					Zarejestruj się
 				</a>
-			</div>
+			</div> --->
 	</div>
 
 	<!-- Mobile Header Bar -->
@@ -98,11 +98,11 @@ use App\Walkers\MobileDropdownWalker;
 			</nav>
 			@endif
 
-			<div class="mt-8">
+			<!--- <div class="mt-8">
 				<a href="/zarejestruj-sie/" class="block w-full second-btn">
 					Zarejestruj się
 				</a>
-			</div>
+			</div> --->
 		</div>
 
 	</div>
