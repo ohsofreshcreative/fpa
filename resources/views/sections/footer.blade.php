@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer -smt border-t border-gray-700">
 	<div class="__wrap bg-dark">
 		<div class="__wrapper c-main">
 			<div class="__widgets grid gap-1 md:gap-6 pt-0 pb-30 md:py-36">
