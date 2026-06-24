@@ -52,6 +52,8 @@ class HeroNews extends Block
 				'toolbar' => 'full', // 'basic', 'full'
 				'media_upload' => true,
 			])
+			->addText('date', ['label' => 'Data'])
+			->addText('place', ['label' => 'Miejsce'])
 			->addAccordion('accordion2', [
 				'label' => 'Newsletter',
 				'open' => false,

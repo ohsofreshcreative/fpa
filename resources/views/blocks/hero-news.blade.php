@@ -19,6 +19,27 @@ $backgroundImage = !empty($g_hero_news['image']['url']) ? "linear-gradient(90deg
 
 			<div data-gsap-element="text" class="text-white text-xl">{{ strip_tags($g_hero_news['text']) }}</div>
 
+			@if (!empty($g_hero_news['date']))
+			<div data-gsap-element="info" class="__info flex flex-col md:flex-row gap-6 mt-6">
+				<div class="flex items-center gap-2">
+					<div>
+						<img src="/wp-content/uploads/2025/11/calendar.svg" />
+					</div>
+					<div class="text-white text-lg">
+						{!! $g_hero_news['date'] !!}
+					</div>
+				</div>
+				<div class="flex items-center gap-2">
+					<div>
+						<img src="/wp-content/uploads/2025/11/place.svg" />
+					</div>
+					<div class="text-white text-lg">
+						{!! $g_hero_news['place'] !!}
+					</div>
+				</div>
+			</div>
+			@endif
+
 			@if (!empty($g_hero_news['button1']))
 			<div class="inline-buttons m-btn">
 				<a data-gsap-element="button" class="second-btn left-btn" href="{{ $g_hero_news['button1']['url'] }}" target="{{ $g_hero_news['button1']['target'] }}">{{ $g_hero_news['button1']['title'] }}</a>
