@@ -24,6 +24,17 @@ add_filter('block_editor_settings_all', function ($settings) {
 });
 
 /**
+ * Inject editor styles into TinyMCE (ACF WYSIWYG fields).
+ *
+ * @return string
+ */
+add_filter('mce_css', function ($mceCss) {
+	$style = Vite::asset('resources/css/editor.css');
+
+	return $mceCss ? "{$mceCss},{$style}" : $style;
+});
+
+/**
  * Inject scripts into the block editor.
  *
  * @return void

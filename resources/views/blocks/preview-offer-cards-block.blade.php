@@ -1,0 +1,11 @@
+<!--- offer-cards-block preview --->
+<div class="acf-preview" @if(!empty($nomt)) data-acf-nomt @endif>
+	<div class="acf-preview__meta">
+		<div class="acf-preview__heading">
+			<div class="acf-preview__title">Kafelki oferty</div>
+			<span class="acf-preview__slug">acf/offer-cards-block</span>
+		</div>
+		@include('partials.block-preview-settings')
+	</div>
+	<div class="acf-preview__content"><p>Blok wyświetla oferty pogrupowane w zakładki według wybranych kategorii.</p></div>
+</div>
